@@ -48,7 +48,14 @@ namespace Programa
 
         public void RealizarDivision(int a, int b)
         {
+            if (a > b)
+            {
+                Console.WriteLine("No se puede realizar la division porque el primer numero ingresado es mas grande que el segundo ingresado");
+            }
+            else
+            {
             Console.WriteLine("La division de los numeros ingresados es: " + (a / b));
+            }
         }
     }
 }
