@@ -51,7 +51,12 @@ namespace Programa
                     break;
 
                 case 4:
+                    Operaciones cuentasDivision = new Operaciones();
+                    Console.WriteLine("**********REALIZAR UNA DIVISION**********");
+                    int numeroSiete = cuentasDivision.PedirNumero();
+                    int numeroOcho = cuentasDivision.PedirNumero();
 
+                    cuentasDivision.RealizarDivision(numeroSiete, numeroOcho);
                     break;
             }
         }

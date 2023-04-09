@@ -45,5 +45,10 @@ namespace Programa
         {
             Console.WriteLine("La multiplicacion de los numeros ingresados es: " + (a * b));
         }
+
+        public void RealizarDivision(int a, int b)
+        {
+            Console.WriteLine("La division de los numeros ingresados es: " + (a / b));
+        }
     }
 }
