@@ -42,7 +42,12 @@ namespace Programa
                     break;
 
                 case 3:
+                    Operaciones cuentasMultiplicacion = new Operaciones();
+                    Console.WriteLine("**********REALIZAR UNA MULTIPLICACION**********");
+                    int numeroCinco = cuentasMultiplicacion.PedirNumero();
+                    int numeroSeis = cuentasMultiplicacion.PedirNumero();
 
+                    cuentasMultiplicacion.RealizarMultiplicacion(numeroCinco, numeroSeis);
                     break;
 
                 case 4:

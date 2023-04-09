@@ -40,5 +40,10 @@ namespace Programa
         {
             Console.WriteLine("La resta de los numeros ingresados es: " + (a - b));
         }
+
+        public void RealizarMultiplicacion(int a, int b)
+        {
+            Console.WriteLine("La multiplicacion de los numeros ingresados es: " + (a * b));
+        }
     }
 }
