@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Franco Carreras\\Desktop\\RepositorioGitFlow\\Programa\\Programa\\Programa.csproj",
+      "projectUniqueName": "C:\\Users\\Franco Carreras\\Desktop\\GitFlowRepositorio\\Programa\\Programa\\Programa.csproj",
       "projectName": "Programa",
-      "projectPath": "C:\\Users\\Franco Carreras\\Desktop\\RepositorioGitFlow\\Programa\\Programa\\Programa.csproj",
+      "projectPath": "C:\\Users\\Franco Carreras\\Desktop\\GitFlowRepositorio\\Programa\\Programa\\Programa.csproj",
       "packagesPath": "C:\\Users\\Franco Carreras\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Franco Carreras\\Desktop\\RepositorioGitFlow\\Programa\\Programa\\obj\\",
+      "outputPath": "C:\\Users\\Franco Carreras\\Desktop\\GitFlowRepositorio\\Programa\\Programa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Franco Carreras\\AppData\\Roaming\\NuGet\\NuGet.Config",

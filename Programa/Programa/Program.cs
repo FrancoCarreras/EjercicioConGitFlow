@@ -24,7 +24,12 @@ namespace Programa
             switch (respuesta)
             {
                 case 1:
+                    Operaciones cuentas = new Operaciones();
+                    Console.WriteLine("**********REALIZAR UNA SUMA**********");
+                    int numeroUno = cuentas.PedirNumero();
+                    int numeroDos = cuentas.PedirNumero();
 
+                    cuentas.RealizarSuma(numeroUno, numeroDos);
                     break;
 
                 case 2:
