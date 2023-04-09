@@ -33,7 +33,12 @@ namespace Programa
                     break;
 
                 case 2:
+                    Operaciones cuentasResta = new Operaciones();
+                    Console.WriteLine("**********REALIZAR UNA RESTA**********");
+                    int numeroTres = cuentasResta.PedirNumero();
+                    int numeroCuatro = cuentasResta.PedirNumero();
 
+                    cuentasResta.RealizarResta(numeroTres, numeroCuatro);
                     break;
 
                 case 3:

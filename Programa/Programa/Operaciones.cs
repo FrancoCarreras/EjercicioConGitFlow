@@ -35,5 +35,10 @@ namespace Programa
         {
             Console.WriteLine("La suma de los numeros ingresados es: " + (a + b));
         }
+
+        public void RealizarResta(int a, int b)
+        {
+            Console.WriteLine("La resta de los numeros ingresados es: " + (a - b));
+        }
     }
 }
